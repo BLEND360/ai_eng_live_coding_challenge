@@ -13,16 +13,16 @@ Each module includes implementation code and accompanying `pytest`-based tests.
 
 ```
 
-rate\_limiting/
-├── api.py                 # Mock API with rate limiting logic
-├── app.py                 # Candidate implementation (rate-limited requests)
-└── tests/
-└── test\_api.py        # Tests for rate limiting behavior
+rate_limiting
+├── api.py                       # Mock API with rate limiting logic
+├── app.py                       # Candidate implementation (rate-limited requests)
+└── tests
+    └── test_api.py              # Tests for rate limiting behavior
 
-refactor/
-├── data\_processor.py      # DataFrame transformation logic
-└── tests/
-└── test\_data\_processor.py   # Tests for expected output
+refactor
+├── data_processor.py            # DataFrame transformation logic
+└── tests
+    └── test_data_processor.py   # Tests for expected output
 
 ````
 
@@ -31,22 +31,22 @@ refactor/
 ## 🧪 Setup Instructions
 
 1. **Clone the repo**  
-   ```bash
-   git clone <your-repo-url>
-   cd <repo-root>
+```bash
+git clone <your-repo-url>
+cd <repo-root>
 ````
 
 2. **Install dependencies**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 3. **Run tests**
 
-   ```bash
-   pytest
-   ```
+```bash
+pytest
+```
 
 ---
 
