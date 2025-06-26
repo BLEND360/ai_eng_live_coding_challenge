@@ -70,6 +70,10 @@ pytest rate_limiting/tests/test_api.py
 
 Located in `refactor/`.
 
+### Description
+
+Refactor the code provided in `refactor/data_processor.py`, ensure all tests pass.
+
 ### Test:
 
 ```bash
