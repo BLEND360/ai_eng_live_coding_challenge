@@ -2,7 +2,7 @@ from rate_limiting.app import call_api
 
 
 def test_call_api():
-    request_len = 5
+    request_len = 10
     prompts = [f"Prompt {i}" for i in range(request_len)]
     response = call_api(prompts)
     assert len(response) == request_len
